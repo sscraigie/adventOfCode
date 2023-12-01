@@ -1,0 +1,58 @@
+[
+"Monkey 0": {
+    "starting items" [54, 98, 50, 94, 69, 62, 53, 85],
+    "operation": "* 13",
+    "test":  "divisible by 3",
+      "true": "Monkey 2",
+      "false": "Monkey 1",
+},
+"Monkey 1":{
+  "starting items" [71, 55, 82],
+  "operation": "+ 2",
+  "test":  "divisible by 13",
+    "true": "Monkey 7",
+    "false": "Monkey 2"
+},
+"Monkey 2":{
+  "starting items" [77, 73, 86, 72, 87]
+  "operation": "+ 8",
+  "test":  "divisible by 19",
+    "true": "Monkey 4",
+    "false": "Monkey 7"
+}
+"Monkey 3":{
+  "starting items" [97, 91],
+  "operation": "+ 1",
+  "test":  "divisible by 17",
+    "true": "Monkey 6",
+    "false": "Monkey 5",
+
+"Monkey 4":{
+  "starting items" [78, 97, 51, 85, 66, 63, 62],
+  "operation": "* 17"
+  "test":  "divisible by 5",
+    "true": "Monkey 6",
+    "false": "Monkey 3",
+
+"Monkey 5":{
+  "starting items" [88],
+  "operation": "+ 3"
+  "test":  "divisible by 7",
+    "true": "Monkey 1"
+    "false": "Monkey 0"
+},
+"Monkey 6":{
+  "starting items" [87, 57, 63, 86, 87, 53],
+  "operation": "* old",
+  "test":  "divisible by 11",
+    "true": "Monkey 5",
+    "false": "Monkey 0",
+},
+"Monkey 7": {
+  "starting items" [73, 59, 82, 65],
+  "operation": "+ 6",
+  "test":  "divisible by 2",
+    "true": "Monkey 4",
+    "false": "Monkey 3"
+}
+]
