@@ -1,4 +1,5 @@
 # Advent of Code
+```
 
          |
         -+-
@@ -17,6 +18,7 @@ i/ *   O   O   * \i
 /=================\
        |___|
 
+```
 This repository contains solutions to the Advent of Code challenges.
 
 ## Getting Started
