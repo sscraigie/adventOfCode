@@ -1,7 +1,7 @@
 import { inputs } from "./input";
 
 /**
- * Part Two
+ * Part One
  */
 const partOne = (input: string[]) => {
   let firstNu;
@@ -18,7 +18,7 @@ const partOne = (input: string[]) => {
 };
 
 /**
- * Part two
+ * Part Two
  */
 const partTwo = (input: string[]) => {
   const spellings3 = ["one", "two", "six"];
